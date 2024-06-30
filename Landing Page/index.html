@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="logo.png" alt="MyWebsite Logo">
+                <!-- <h1>MyWebsite</h1> -->
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h1>Welcome to MyWebsite</h1>
+            <p>
+
+                FullStack Devloper <br>
+                Hi, I'm Sintoo Kumar <br>
+                from India
+                </p>
+            <a href="#about" class="btn">Learn More</a>
+            <!-- <div class="hero-image">
+                <img src="hero-image.jpg" alt="Hero Image">
+            </div> -->
+        </div>
+        
+    </section>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="user1.jpg" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>As a Full Stack Developer, I specialize in both front-end and back-end development. I use HTML, CSS, JavaScript, and frameworks like React for creating responsive user interfaces, while employing Node.js, Express, and databases like MongoDB for robust server-side functionality. My comprehensive skill set ensures seamless integration, security, and scalability for efficient and user-friendly web applications.</p> 
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>front-end</span><br> HTML,CSS,JavaScript,Bootstrap</li>
+                            <li><span>back-end</span><br> Nodejs,PHP,React,MongoDB</li>
+                            <li><span>Version control/Code Editer</span><br>Git,GitHub,jupyter Notebook,VS Code</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">  
+                        <ul>
+                            <li><span>2020 - 2021</span><br> Data Entry Operator at Global Bharat Health Life(PVT LTD)</li>
+                            <li><span>2023 - 2024</span><br> Team lead in Project</li>
+                            <li><span>2024</span><br>Internship at Web development</li>
+                            <li><span>2024</span><br>Treaning at Web development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2019</span><br> 12th (Math)</li>
+                            <li><span>2023</span><br> BCA(Bachelor of Computer Applications)</li>
+                            <li><span>Till Naw</span><br>MCA(Master of Computer Applications)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="services" class="content">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service">
+                    <h3>Web Developer</h3>
+                    <p>I am a web developer with expertise in HTML, CSS, JavaScript, and modern frameworks like React and Angular. I create responsive, user-friendly websites and web applications, emphasizing clean code and performance. Passionate about learning, I stay updated with industry trends to deliver innovative solutions.</p>
+                </div>
+                <div class="service">
+                    <h3>Front-End Developer</h3>
+                    <p>I am a front-end developer skilled in HTML, CSS, and JavaScript, with experience in frameworks like React and Vue.js. I craft responsive, visually appealing user interfaces, focusing on performance and accessibility. Continuously learning, I integrate the latest design trends and technologies to enhance user experience.</p>
+                </div>
+                <div class="service">
+                    <h3>Back-End Developer</h3>
+                    <p>I am a backend developer proficient in languages like Python, Java, and Node.js. I specialize in building robust, scalable server-side applications, managing databases, and ensuring efficient API integrations. With a focus on security and performance, I continuously optimize backend systems to support seamless front-end functionality and user experience.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 MyWebsite. All rights reserved.</p>
+            <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
